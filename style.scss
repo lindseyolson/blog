@@ -1,0 +1,41 @@
+/*
+ Theme Name:   VT Grid Mag Child
+ Description:  VT Grid Mag Child Theme
+ Author:       Lindsey Olson
+ Author URI:   http://lindseyolson.io
+ Template:     vt-grid-mag
+ Version:      1.0.0
+*/
+
+.container {
+    width: 1150px;
+}
+
+@media only screen and (max-width: 1170px) {
+    .container {
+        width: 90%;
+    }
+}
+
+.hentry {
+    padding: 0.1rem;
+}
+
+.post-media {
+    margin: 0;
+}
+
+.preview-image-details {
+    position: absolute;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+
+    &.is-active {
+        visibility: visible;
+    }
+}
